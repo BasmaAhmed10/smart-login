@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/fontawesome.css">
+
+</head>
+<body>
+   
+    <section class="login">
+    
+
+         <button class="button m-3" id="form-login">Login</button> 
+         
+
+        <div class="home" >
+        <div class="form-container">
+            <button> <i class="fa-solid fa-xmark form-close"></i></button>
+           
+            <div class="form login-form">
+                <form>
+                    <h1> Smart Login System</h1>
+                    <div class="input-box">
+                    <input type="Email" placeholder="Enter Your email"/>
+                    <i class="fa-regular fa-envelope email"></i>
+
+                    </div>
+
+                    <div class="input-box">
+                    <input type="password" placeholder="Enter Your password"/>
+                    <i class="fa-solid fa-lock  password"></i>
+                    <i class="fa-regular fa-eye-slash  pw-hide"></i>
+
+                    </div>
+
+                    <div class="option-faild d-flex justify-content-between py-4">
+                    <div class="check-box">
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember me</label>
+                    </div>
+                    <a href="#" class="forget-pass">Forget password?</a>
+
+                    </div>
+
+                    <button class="button" id="submit-login">Login</button>
+
+                    <div class="login-sign text-center py-4">Don’t have an account? <a href="#" id="signup">Sign Up</a></div>
+                    
+                </form>
+
+
+            </div>
+
+
+
+            <!-- SignUpForm -->
+
+            <div class="form signup-form">
+                <form>
+                    <h1 class="text-center">signup</h1>
+                    <div class="input-box">
+                    <input type="Email" placeholder="Enter Your email"/>
+                    <i class="fa-regular fa-envelope email"></i>
+
+                    </div>
+
+                    <div class="input-box">
+                    <input type="password" placeholder="Create password"/>
+                    <i class="fa-solid fa-lock  password"></i>
+                    <i class="fa-regular fa-eye-slash  pw-hide"></i>
+
+                    </div>
+
+                    <div class="input-box">
+                        <input type="password" placeholder="Confirm password"/>
+                        <i class="fa-solid fa-lock  password"></i>
+                        <i class="fa-regular fa-eye-slash  pw-hide"></i>
+    
+                        </div>
+
+                    <div class="option-faild d-flex justify-content-between p-2">
+                    <div class="check-box">
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember me</label>
+                    </div>
+                   
+                    </div>
+
+                    <button class="button">Sign up</button>
+
+                    <div class="login-sign text-center py-4">Already have an account? <a href="#" id="login">Login</a></div>
+                    
+                </form>
+
+
+            </div>
+        </div>
+           
+        </div>
+    </section>
+
+
+
+
+
+   
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
